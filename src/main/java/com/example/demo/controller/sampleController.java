@@ -27,7 +27,7 @@ public class sampleController {
 	@GetMapping("/ex2")
 	public String ex2() {
 		return "/return_/ex1.html"; // html경로를 지정
-	}
+	}	
 	
 	@ResponseBody
 	@GetMapping("/ex3")	
